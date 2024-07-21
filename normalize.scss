@@ -22,6 +22,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #F6F8FC;
 }
 
 /**
@@ -346,4 +347,11 @@ template {
 
 [hidden] {
   display: none;
+}
+
+#navigation a.active-link svg {
+  fill: #4C79FF;
+}
+#navigation a.pending-link svg {
+  fill: red;
 }
