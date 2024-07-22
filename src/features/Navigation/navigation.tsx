@@ -1,7 +1,6 @@
 import {FC} from 'react';
 import {NavLink} from "react-router-dom";
 import styles from './navigation.module.scss';
-import clsx from "clsx";
 
 
 const Navigation: FC = () => {

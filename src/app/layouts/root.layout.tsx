@@ -7,7 +7,9 @@ const RootLayout: FC = () => {
     return (
         <div className={styles.wrapper}>
             <Navigation />
-            <Outlet />
+            <main>
+                <Outlet />
+            </main>
         </div>
     );
 }
